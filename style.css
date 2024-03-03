@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Use Roboto font for the entire document */
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    gap:10px;
+    max-width:500px;
+    margin: 0 auto; 
+    padding: 20px;
+    /* border:2px solid black; */
+}
+
+.book-details {
+    max-height:600px;
+     width:100%;
+    display: flex;
+    flex-direction:column;
+    /* margin-bottom: 20px; */
+    border:2px solid rgb(4, 4, 17);
+    overflow: hidden;
+}
+
+.image-wrapper{
+    height:400px;
+    width:100%;
+    object-fit: contain;
+    border-width:0;
+}
+
+.book-cover{
+    width: 100%;
+    height:100%;
+    /* object-fit:cover; */
+}
+
+.details{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    padding:10px;
+}
+
+
+.navigation {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius:8px;
+    color:black;
+    background-color:rgb(155, 178, 156);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0;
+    font-family: 'Roboto', sans-serif;
+}
